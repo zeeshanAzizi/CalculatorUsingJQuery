@@ -1,0 +1,43 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<link href="https://fonts.googleapis.com/css?family=Lato|Roboto" rel="stylesheet">
+<div class="text-center">
+    <h1> Functional Calculator Project </h1>
+    <h4> using HTML, CSS, Bootstrap, Javascript and jQuery </h4>
+</div>
+<div id="calcDisplay">
+    <span id="steps">0</span> <!-- the 0 is for it to load initially with blank calc display screen -->
+    <hr />  <!-- this is just a devider line for styling-->
+</div>
+<div class="text-center" id="calculator">
+    <!--this will be all the primary calc buttons. NOTE, this will NOT be a responsive design, as calculator designs always have a specified grid layout-->
+    <div class="btn-group ">
+        <a class="btn btn-danger " id="clearAll">AC</a> <!--btn-danger is to make a red button-->
+        <a class="btn btn-danger" id="clearLast">CE</a>
+        <a class="btn btn-warning" id="/">/</a>
+        <a class="btn btn-warning " id="*">X</a><!--NOTE THIS MUST BE a * and not an X or it will not work!!!-->
+    </div></br>
+    <div class="btn-group">
+        <a class="btn btn-primary" id="7">7</a>
+        <a class="btn btn-primary" id="8">8</a>
+        <a class="btn btn-primary" id="9">9</a>
+        <a class="btn btn-warning" id="-">-</a>
+    </div></br>
+    <div class="btn-group">
+        <a class="btn btn-primary" id="4">4</a>
+        <a class="btn btn-primary" id="5">5</a>
+        <a class="btn btn-primary" id="6">6</a>
+        <a class="btn btn-warning" id="+">+</a>
+    </div></br>
+    <div class="btn-group">
+        <a class="btn btn-primary" id="1">1</a>
+        <a class="btn btn-primary" id="2">2</a>
+        <a class="btn btn-primary" id="3">3</a>
+        <a class="btn btn-warning" id=".">.</a>
+    </div></br>
+    <div class="btn-group">
+        <a class="btn btn-primary bigButton0" id="0">0</a>
+        <a class="btn btn-danger bigButtonT" id="total">=</a>
+    </div></br>

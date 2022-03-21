@@ -1,0 +1,138 @@
+﻿/* Please see documentation at https://docs.microsoft.com/aspnet/core/client-side/bundling-and-minification
+for details on configuring this project to bundle and minify static web assets. */
+
+a.navbar-brand {
+  white-space: normal;
+  text-align: center;
+  word-break: break-all;
+}
+
+/* Provide sufficient contrast against white background */
+a {
+  color: #0366d6;
+}
+
+.btn-primary {
+  color: #fff;
+  background-color: #1b6ec2;
+  border-color: #1861ac;
+}
+
+.nav-pills .nav-link.active, .nav-pills .show > .nav-link {
+  color: #fff;
+  background-color: #1b6ec2;
+  border-color: #1861ac;
+}
+
+/* Sticky footer styles
+-------------------------------------------------- */
+html {
+  font-size: 14px;
+}
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+.border-top {
+  border-top: 1px solid #e5e5e5;
+}
+.border-bottom {
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.box-shadow {
+  box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05);
+}
+
+button.accept-policy {
+  font-size: 1rem;
+  line-height: inherit;
+}
+
+/* Sticky footer styles
+-------------------------------------------------- */
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  /* Margin bottom by footer height */
+  margin-bottom: 60px;
+}
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  white-space: nowrap;
+  line-height: 60px; /* Vertically center the text there */
+}
+body {
+    background-color: black;
+}
+
+h1 {
+    color: white;
+    font-family: "Roboto";
+}
+
+h4 {
+    color: white;
+    font-family: "Lato";
+}
+
+#calcDisplay {
+    height: 75px;
+    width: 250px;
+    background-color: grey;
+    border-top-left-radius: 1em;
+    border-top-right-radius: 1em;
+    margin-top: 100px;
+    padding-top: 15px; /*this is to bring the 0 down a bit to not be truncated by the chosen curved edge*/
+    margin-right: auto;
+    margin-left: auto;
+    /*padding-left: 150px;*/ /* moves the 0 to the right but with long results this get complicated */
+}
+
+#calculator {
+    background-color: grey;
+    width: 250px;
+    /*padding-top: 20px; */
+    /*padding-bottom: 30px; */
+    border-bottom-left-radius: 1em;
+    border-bottom-right-radius: 1em;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#steps {
+    padding-left: 50px;
+    font-size: 2em;
+}
+
+a { /*this is for the buttons*/
+    /*margin: 5px;*/ /*space between the buttons*/
+    width: 63px;
+    /*width: 2.6vw;  means 2.6 of the view window, this makes everything look similar, see more at W3 schools*/
+    height: 40px;
+    background-color: orange;
+}
+
+.btn {
+    border-radius: 0; /*this makes the buttons square shaped*/
+    border-thickness: 2px;
+    border-color: grey;
+}
+
+.bigButton0 { /*use  . because it is a class*/
+    width: 125px;
+    border-bottom-left-radius: 1em;
+}
+
+.bigButtonT { /*use  . because it is a class*/
+    width: 125px;
+    border-bottom-right-radius: 1em;
+}
+
